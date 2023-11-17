@@ -17,6 +17,10 @@ export const App = () => {
 
   useEffect(() => {
     const fetchImagesData = async () => {
+      if (!query) {
+        return;
+      }
+
       try {
         setIsLoading(true);
         const imageData = await fetchImages({
