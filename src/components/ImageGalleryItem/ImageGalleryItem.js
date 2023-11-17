@@ -4,7 +4,6 @@ import '../../index.css';
 export const ImageGalleryItem = ({ image, onImageClick }) => (
   <li
     className="ImageGalleryItem"
-    key={image.id}
     onClick={() => onImageClick(image)}
   >
     <img
