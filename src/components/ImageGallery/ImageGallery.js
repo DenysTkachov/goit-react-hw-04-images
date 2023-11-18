@@ -20,24 +20,4 @@ export const ImageGallery = ({ images, onImageClick }) => {
 };
 
 
-// export class ImageGallery extends React.Component {
-//   render() {
-//     const { images, onImageClick } = this.props;
-
-//     return (
-//       <div>
-//         <ul className="ImageGallery">
-//           {images.map(image => (
-//             <ImageGalleryItem
-//               key={image.id}
-//               image={image}
-//               onImageClick={onImageClick}
-//             />
-//           ))}
-//         </ul>
-        
-//       </div>
-//     );
-//   }
-// }
 
